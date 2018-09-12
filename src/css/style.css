@@ -1,0 +1,127 @@
+.main-btn{
+    cursor: pointer;
+    transition: all ease 150ms;
+}
+.main-btn:hover{
+    background-color: #4b944b;
+}
+.main-title{
+    padding:30px
+}
+
+.img-icon
+{
+    padding:20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.movie
+{
+    position: relative;
+    border:1px solid #eee;
+    border-radius: 6px;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 150ms ease-out all;
+    margin-top: 30px;
+        box-shadow: 0px 3px 21px rgba(0,0,0,0.5);
+    
+}
+.movie:hover{
+    transform: scale(1.1,1.1)
+}
+
+.movie .img{
+    width: 100%;
+}
+
+.movie .info-holder
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    color:white;
+    padding: 7px;
+    height:45px;
+    transition: 150ms ease-out all;
+}
+.movie:hover .info-holder{
+    height: 100%;
+    overflow: auto;
+}
+
+.movie .name{
+    
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 10px;
+    transition: 150ms ease-out all;
+}
+.movie:hover .info-holder
+{
+    background-color: rgba(0,0,0,.8);
+}
+.movie  .desc{
+    font-size:12px;
+    transition: 110ms ease-out all;
+    opacity: 0;
+    margin-top:10px;
+    margin-bottom:10px;
+    overflow: auto;
+}
+.movie:hover .desc
+{
+    display: block;
+    opacity: 1;
+}
+
+.movie-holder{
+    margin-top: 30px;
+}
+
+.movie  .score
+{
+    background-color: gold;
+    border: 1px solid #333;
+    border-radius: 3px;
+    text-align: center;
+    width: 80px;
+    color: white;
+    font-size: 12px;
+}
+
+.loading{
+    text-align: center;
+    margin:20px;
+}
+
+.season{
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 15px;
+}
+.season .key{
+    color :#666;
+    
+}
+.center{
+    text-align: center
+}
+.no-result{
+    padding:40px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: lightcoral;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #eee;
+}
+
